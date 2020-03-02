@@ -1,0 +1,51 @@
+body {
+	background:rgba(187, 187, 187, 0.47);
+	margin:0;
+	font-family: 'Roboto', sans-serif;
+}
+
+ul{
+	color:white;
+}
+
+
+
+ul#Navigation {
+	float:right;
+
+}
+
+ul#Navigation li {
+	display: inline;
+	font-size: 25;
+	padding: 10px 5px 0px;
+	margin-right: auto;
+	margin-left: auto;
+
+
+} 
+
+ul#Navigation li a {
+	background: rgba(32, 200, 209, 0.88);
+	color:rgba(0, 0, 0, 0.9);
+	padding: 10px 15px;
+	text-decoration: none;
+}
+
+ul#Navigation li a:hover { 
+	background: pink;
+	color: red;
+}
+
+h1 {
+	clear:both;
+
+}
+#sidenav {
+	float: left;
+	background: gray;
+	margin-right: 20px;
+	padding-right: 50px;
+
+
+}
