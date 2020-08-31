@@ -42,7 +42,7 @@ public class Exercise1 {
 				if (sizeOfPizza == 'm') {
 
 					if (orderPizza.length() == 1) {
-						System.out.printf("Medium pizza with no topping £%.2f", mPrice);
+						System.out.printf("Medium pizza with no topping Â£%.2f", mPrice);
 						System.out.println();
 					} else {
 						for (int i = 1; i < orderPizza.length(); i++) {
@@ -69,7 +69,7 @@ public class Exercise1 {
 							}
 						}
 						totalBill += mPrice;
-						System.out.printf("Medium pizza with %s £%.02f \n", topName, totalBill);
+						System.out.printf("Medium pizza with %s Â£%.02f \n", topName, totalBill);
 						System.out.println();
 					}
 
@@ -80,7 +80,7 @@ public class Exercise1 {
 				else if (sizeOfPizza == 'l') {
 
 					if (orderPizza.length() == 1) {
-						System.out.printf("Large pizza with no topping £%.2f", lPrice);
+						System.out.printf("Large pizza with no topping Â£%.2f", lPrice);
 						System.out.println();
 					} else {
 						for (int i = 1; i < orderPizza.length(); i++) {
@@ -107,7 +107,7 @@ public class Exercise1 {
 							}
 						}
 						totalBill += lPrice;
-						System.out.printf("Large pizza with %s £%.02f \n", topName, totalBill);
+						System.out.printf("Large pizza with %s Â£%.02f \n", topName, totalBill);
 
 					}
 
